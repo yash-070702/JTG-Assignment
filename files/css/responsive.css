@@ -44,6 +44,7 @@
     display: flex;
     justify-content: center;
   }
+
   
   .hero-right img {
     max-width: 400px;
@@ -63,7 +64,7 @@
   }
   
   .hero-button {
-    margin-top: 50px;
+    margin-block: 50px;
   }
   
 
