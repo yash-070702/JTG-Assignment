@@ -1,0 +1,138 @@
+.contact-section{
+    width: 100%;
+   background-color:rgba(240, 240, 246, 1);
+    padding-inline: 98px;
+    height: 810px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-form-part{
+    width: 846px;
+    height: 100%;
+
+}
+.contact-information{
+    width: 373px;
+    height: 100%;
+    
+}
+
+.contact-heading{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    margin-top: 50px;
+}
+.contact-cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 20px;
+}
+
+
+.contact-card{
+        width: 373px;
+        height:211px;
+        display: flex;
+        background: white;
+        flex-direction: column;
+         align-items: center;
+}
+.card-image{
+    width: 40px;
+    height: 40px;
+    margin-top: 28px;
+    background: rgba(255, 180, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 50%;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.info-left{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 25px;
+    font-size: 18px;
+    color:rgba(118, 118, 118, 1);
+    text-align: left;
+}
+
+.info-right{
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-right: 25px;
+    text-align: right;
+    color:rgba(118, 118, 118, 1);
+}
+
+
+.contact-form-heading{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    margin-top: 50px
+}
+
+form{
+    width: 100%;
+    margin-top: 45px;
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    gap:20px;
+    padding: 25px 36px;
+
+}
+
+label{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(118, 118, 118, 1);
+}
+
+input , textarea{
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    background: rgba(240, 240, 246, 1);
+    outline: none;
+}
+.form-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+textarea{
+   height: 210px;
+
+}
+.message-box{
+    margin-top: 10px;
+}
+
+form button{
+     background: rgba(255, 180, 0, 1);
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 17px 16px;
+}
+
